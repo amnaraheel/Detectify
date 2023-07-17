@@ -19,41 +19,41 @@ screens/pages, including a home screen, a page displaying information about the
 app, and a screen for detecting object movement.
 
 # Features
-The key features of the Detectify include:
-• Real-time object movement detection using the device's camera.
-• Display of a toast message when object movement is detected.
-• Multiple screens/pages for user interaction.
-• Ability to switch between different screens/pages.
-• Permission handling for accessing the device's camera.
-• Efficient image processing for detecting movement.
-• Use of image comparison techniques to identify changes between frames.
+The key features of the Detectify include: <br />
+• Real-time object movement detection using the device's camera. <br />
+• Display of a toast message when object movement is detected. <br />
+• Multiple screens/pages for user interaction. <br />
+• Ability to switch between different screens/pages. <br />
+• Permission handling for accessing the device's camera. <br />
+• Efficient image processing for detecting movement. <br />
+• Use of image comparison techniques to identify changes between frames. <br />
 
 # Project Structure
 The project follows a standard Android project structure created in Android
-Studio. The main components of the project structure are:
+Studio. The main components of the project structure are: <br />
 • MainActivity: serves as the entry point of the application and manages 
-the navigation between different screens/pages.
+the navigation between different screens/pages. <br />
 • detect_movement.xml: XML layout file defining the UI for the object 
-movement detection screen.
+movement detection screen. <br />
 • activity_main.xml: XML layout file defining the UI for the home 
-screen.
+screen. <br />
 • about.xml: XML layout file defining the UI for the information screen.
 • Camera2API: handles the camera functionality, including opening the 
 camera, capturing frames, and processing images for movement 
-detection.
+detection. <br />
 • convertImageToBitmap(): converts the captured Image object into a 
-Bitmap for image processing.
+Bitmap for image processing. <br />
 • detectMovement(): compares the current and previous frames to detect 
-movement by calculating the pixel differences.
+movement by calculating the pixel differences. <br />
 • getPermission(): checks and requests the necessary camera permission 
-from the user.
+from the user. <br />
 • onRequestPermissionsResult(): handles the result of the permission 
-request.
+request. <br />
 • openCamera(): opens the camera and sets up the capture session.
 • onImageAvailableListener(): processes the captured image frames and 
-detects object movement.
+detects object movement. <br />
 • page0(), page1(), page2(): methods for switching between different 
-screens/pages.
+screens/pages. <br />
 
 # Implementation Details
 The Detectify utilizes the Camera2 API for accessing the device's camera and capturing 
